@@ -23,7 +23,7 @@ Vaultwarden 是 Bitwarden 的轻量级开源实现，常用于自建密码管理
 ### 1. 克隆或下载项目
 将本项目代码克隆或下载zip:
    ```
-   git clone https://github.com/你的仓库/vaultwarden_backup.git
+   git clone https://github.com/Coldin04/vaultwarden_backup.git
    ```
 
 ### 2. 配置环境变量
