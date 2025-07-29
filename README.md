@@ -1,7 +1,6 @@
 # Vaultwarden 自动备份脚本
 
-本项目用于自动化备份 Vaultwarden 密码管理服务的数据，支持加密、云端存储、备份轮换和 Telegram 通知，适用于个人和小型团队的数据安全需求
-
+本项目用于自动化备份 Vaultwarden 密码管理服务的数据，支持加密、云端存储、备份轮换和 Telegram 通知。
 >  README.md是由Copilot AI 生成的，可能包含一些不准确或不完整的信息，请根据实际情况进行调整和补充。如果遇到情况请提交 Issue 或 PR 进行修正，万分感谢！
 
 ---
@@ -22,14 +21,10 @@ Vaultwarden 是 Bitwarden 的轻量级开源实现，常用于自建密码管理
 ## 环境准备
 
 ### 1. 克隆或下载项目
-将本项目代码下载到任意目录，例如：
-```
-c:\Users\你的用户名\Downloads\vaultwarden_backup
-```
-或
-```
-/home/youruser/vaultwarden_backup
-```
+将本项目代码克隆或下载zip:
+   ```
+   git clone https://github.com/你的仓库/vaultwarden_backup.git
+   ```
 
 ### 2. 配置环境变量
 1. 将 `.env-ex` 文件重命名为 `backup.env`，并根据实际情况填写各项配置。
